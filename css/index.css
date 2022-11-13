@@ -1,0 +1,90 @@
+body{
+  background: -webkit-linear-gradient(top,black 80%,#f9a417 );
+ background-attachment:fixed;
+}
+.loader_bg {
+    position: fixed;
+    z-index: 9999999;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+li{
+  
+}
+header {
+    min-height: 90px;
+    padding: 15px 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 998;
+}
+header .container-fluid {
+    max-width: 1850px;
+}
+.right_header_info {
+    width: 100%;
+    float: left;
+    padding: 20px 0 0;
+}
+.right_header_info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.right_header_info ul li {
+    display: inline;
+    font-size: 16px;
+    margin-left: 45px;
+    color: #eaeaea;
+    font-weight: 400;
+    float: left;
+}
+.right_header_info ul li a {
+    font-weight: 300;
+}
+#sidebarCollapse a {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #37baeb;
+}
+.button_user li a {
+   color: #fff;
+}
+.button_user a {
+    float: left;
+    min-width: 75px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    top: -3px;
+    padding: 0 15px;
+    margin: 0 2px;
+}
+.button_user a {
+    float: left;
+    min-width: 75px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    position: relative;
+    top: -7px;
+    padding: 0 47px;
+    color: #fff;
+    margin: 0 2px;
+    border: solid #eaeaea 1px;
+    border-radius: 10px;
+    background: #000;
+}
+.button_user a:hover, .button_user a:focus, .button_user a.active {
+    background: #00aeef;
+    border-color: #00aeef;
+    color: #fff;
+}
+#sidebarCollapse {
+    background: transparent;
+}
