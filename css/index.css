@@ -2,6 +2,152 @@ body{
   background: -webkit-linear-gradient(top,black 80%,#f9a417 );
  background-attachment:fixed;
 }
+
+/* CSS registro y login */
+.container{
+  width: 100%;
+  height: 70vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registroPanel{
+  display: flex;
+  width: 650px;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+}
+
+.register, .login{
+  flex: 1;
+}
+
+.register{
+  padding: 40px;
+  position: relative;
+}
+
+.register h2{
+  color: #797979;
+  margin-bottom: 30px;
+}
+
+.register input{
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 25px;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom: 1px solid #a8a8a8;
+  color: #333;
+}
+
+.register input:active,
+.register input:focus{
+  outline: none;
+}
+
+.register .submit{
+  width: auto;
+  padding: 10px;
+  background: #F8B011;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px 3px 3px 3px;
+  cursor: pointer;
+}
+hr {
+    border: 1px solid #d9d6d6!important;
+    height: 395px!important;
+    /* width: 173px; */
+}
+/* .register::after{
+  content: 'i';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 50%;
+  right: -23px;
+  padding: 10px;
+  text-align: center;
+  font-size: 19px;
+  background: black;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, .2);
+  color: #7c7c7c;
+  border:1px solid red;
+} */
+
+.login{
+  background-image: linear-gradient(to bottom right, white, white);
+  padding: 40px;
+}
+
+.login h2{
+color: #F9AA1D;
+  margin-bottom: 45px;
+}
+
+.login button i{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.login button{
+  width: 100%;
+  margin: 15px 0px;
+  padding: 10px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+  cursor: pointer;
+  position: relative;
+}
+
+.login .fb{
+  background: #3b5999;
+  border-style: none;
+  color: #fff;
+}
+
+.login .tw{
+  background: #55acef;
+  border-style: none;
+  color: #fff;
+}
+
+.login .correo{
+  background: #33d4ce;
+  border-style: none;
+  color: #fff;
+}
+
+@media only screen and (max-width: 540px){
+  .registroPanel{
+    display: block;
+  }
+
+  .register, .login{
+    flex: none;
+  }
+
+  .register::after{
+    top: unset;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+  }
+}
+
+
+/* Fin css registro y login */
+
+
  .loader_bg {
     position: fixed;
     z-index: 9999999;
@@ -15,6 +161,8 @@ body{
 }
 .ifheader{
   width: 100%!important;
+  background: -webkit-linear-gradient(top,black 80%,black );
+  background-image: no-repeat;
   height: 145px
   bottom:0;
   left: 0;
