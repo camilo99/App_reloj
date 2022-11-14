@@ -13,7 +13,13 @@ body{
     background: -webkit-linear-gradient(right, #FFEC5E,#f9a417)!important;
     color: #000000;
 }
-
+.ifheader{
+  width: 100%!important;
+  height: 145px
+  bottom:0;
+  left: 0;
+  position: absolute;
+}
  header {
     min-height: 90px;
     padding: 40px 0;
