@@ -10,4 +10,5 @@ $('.btn-abrir').click(function() {
 
 $('.close').click(function() {
   modal.hide();
+
 });
