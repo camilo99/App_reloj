@@ -1,6 +1,20 @@
+:root{
+  --naranja:#f9a417;
+  --negro:#000000;
+  --blanco:#ffffff;
+
+}
+
+
+
+.log{
+      width: 68%!important;
+   margin-left: 15%!important;
+}
 body{
   background: -webkit-linear-gradient(top,black 80%,#f9a417 );
  background-attachment:fixed;
+ font-family: 'Spartan', 'sans-serif';
 }
 
 /* CSS registro y login */
@@ -61,11 +75,7 @@ body{
   border-radius: 3px 3px 3px 3px;
   cursor: pointer;
 }
-hr {
-    border: 1px solid #d9d6d6!important;
-    height: 395px!important;
-    /* width: 173px; */
-}
+
 /* .register::after{
   content: 'i';
   position: absolute;
@@ -88,6 +98,14 @@ hr {
   background-image: linear-gradient(to bottom right, white, white);
   padding: 40px;
 }
+.buttonRegistro{
+    background: -webkit-linear-gradient(right, #FFEC5E,#f9a417)!important;
+    border: white;
+    width: 40%;
+    height: 35px;
+    border-radius: 4px 4px 4px 4px;
+}
+
 
 .login h2{
 color: #F9AA1D;
@@ -156,13 +174,35 @@ color: #F9AA1D;
     height: 100%;
 }
 .button{
-    background: -webkit-linear-gradient(right, #FFEC5E,#f9a417)!important;
     color: #000000;
 }
-#buttonColor{
+li .dinone{
+  margin: 0;
+  padding: 0;
+}
+#ulIcons {
+    display: -webkit-inline-box;
+    list-style: none;
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+}
+#hr {
+    /* margin: 0; */
+    /* padding: 0; */
+    /* color: #f9a417; */
+    height: 4px;
+    background-color: #f9a417;
+    width: 96%;
+   opacity: 1.25;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#buttonColor {
     /* float: left; */
+    background: -webkit-linear-gradient(right, #FFEC5E,#f9a417)!important;
     /* min-width: 75px; */
-    width: 146px;
+    width: 200px;
     height: 42px;
     text-align: center;
     /* line-height: 48px; */
@@ -191,14 +231,16 @@ color: #F9AA1D;
     left: 0;
     z-index: 998;
 }
+.headerL{
+      padding: 33px 0;
+}
 header .container-fluid {
     max-width: 1850px;
 }
- .right_header_info {
+.right_header_info {
+    float: right;
     width: 100%;
-    float: left;
     padding: 5px 0 0;
-    border:1px solid red!important;
 }
 .buscar {
     border: 1px solid white;
