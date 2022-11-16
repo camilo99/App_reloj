@@ -104,9 +104,11 @@ body{
     width: 40%;
     height: 35px;
     border-radius: 4px 4px 4px 4px;
+    transition: .25s ease background;
 }
-
-
+.buttonRegistro:hover{
+  background: #1bc59b;
+}
 .login h2{
 color: #F9AA1D;
   margin-bottom: 45px;
@@ -162,7 +164,7 @@ color: #F9AA1D;
   }
 }
 
-
+/* fin modal */
 /* Fin css registro y login */
 
 
