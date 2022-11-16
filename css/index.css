@@ -8,7 +8,7 @@
 
 
 .log{
-      width: 68%!important;
+      width: 75%!important;
    margin-left: 15%!important;
 }
 body{
@@ -231,8 +231,9 @@ li .dinone{
     left: 0;
     z-index: 998;
 }
-.headerL{
-      padding: 33px 0;
+.headerL {
+    /* padding: 21px 0; */
+    padding-bottom: 0%;
 }
 header .container-fluid {
     max-width: 1850px;
