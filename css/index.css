@@ -1,5 +1,5 @@
 :root{
-  --naranja:#f9a417;
+  --naranja:#F7971E;
   --negro:#000000;
   --blanco:#ffffff;
 
@@ -311,27 +311,26 @@ a{
 #sidebarCollapse {
     background: transparent;
 }
-/*Juan Jose*/ 
 
+/* JUANJO */
+.editRow{
+  --bs-gutter-x: -7.5rem;
+}
 .img1{
     background-image: url(../paginas/imgs/img1.png);
     background-position: center;
     background-repeat: no-repeat;
-    border: 1px solid red;
     height: 553px;
 }
 .img2{
     background-image: url(../paginas/imgs/img2.png);
     background-position: center;
     background-repeat: no-repeat;
-    border: 1px solid red;
     height: 553px;
 }
 .img3{
     background-image: url(../paginas/imgs/img3.png);
     background-position: center;
     background-repeat: no-repeat;
-    border: 1px solid red;
     height: 553px;
 }
-

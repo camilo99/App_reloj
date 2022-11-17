@@ -10,8 +10,12 @@
     <!-- CSS de Bootstrap -->
 
     <!-- Latest compiled and minified CSS -->
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
 
       <link rel="stylesheet" href="../css/index.css">
       <link rel="stylesheet" href="../css/popup.css">
@@ -22,16 +26,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/text/javascript">
-$(document).ready(function (){
 
-    #("#buttonRegistro").on({
-
-    })
-})
-
-
-    </script>
   </head>
   <body>
       <?php
@@ -66,28 +61,11 @@ $(document).ready(function (){
    <!-- Modal Box for Login -->
   <div class="modalBox">
     <div class="modalContent">
-      <span class="close"><i class="fas fa-times-circle"></i></span>
+      <span class="close"><i class='bx bx-x'></i></span>
       <div class="formHolder">
-        <h2>Member's Login</h2>
-        <form action="#" method="post">
-          <div class="row">
-            <label for="username">Username</label>
-            <input id="username" name="username" type="text">
-          </div>
-          <div class="row">
-            <label for="password">Password</label>
-            <input id="password" name="password" type="password">
-            <span class="error">must be longer than 8 letters</span>
-          </div>
-          <div class="row">
-            <label for="confirm_password">Confirm Password</label>
-            <input id="confirm_password" name="confirm_password" type="password">
-            <span class="error">password do not match</span>
-          </div>
-          <div class="row">
-            <input type="submit" value="SUBMIT" id="submit">
-          </div>
-        </form>
+          <div class="" id="circle"></div>
+        <h2>Registro Exitoso</h2>
+          <i class='bx bx-check fa-5x arrow'></i>
       </div>
     </div>
   </div>
@@ -104,14 +82,12 @@ $(document).ready(function (){
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="../js/fontawesome.js"></script>
+
     <script src="../js/bootstrap/bootstrap.min.js"></script>
     <script src="../js/popup.js"></script>
 
-    <script>
-      $('.buttonRegistro').click(function(){
-        $('pop-up').modal();
-      })
-    </script>
+
 
     </body>
     </html>
