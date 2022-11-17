@@ -11,3 +11,13 @@ $('.btn-abrir').click(function() {
 $('.close').click(function() {
   modal.hide();
 });
+
+var modal2 = $('.modalBox2');
+
+$('#recuperarcontraseña').click(function() {
+  modal2.show();
+});
+
+$('.close').click(function() {
+  modal2.hide();
+});

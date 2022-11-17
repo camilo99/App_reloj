@@ -15,7 +15,7 @@
             <div class="col-md-3">
                 <div class="full">
                     <div class="right_header_info">
-                        <button id="buttonColor"><a class="button"  href="paginas/registro.php"> Iniciar Sesión  /   </a><a href="paginas/registro.php" class="button" >   Registrarse</a></button>
+                        <button id="buttonColor"><a class="button"  href="paginas/registro.php"> Iniciar Sesión  /   </a><a class="button" >   Registrarse</a></button>
 
 
                         <ul id="ulIcons">
@@ -31,4 +31,5 @@
         </div>
     </div>
 </header>
+<hr id="hr">
 <!-- end header -->

@@ -26,13 +26,25 @@ body{
   justify-content: center;
   align-items: center;
 }
-
+.label {
+    color: var(--blanco);
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
 .registroPanel{
   display: flex;
   width: 650px;
   height: auto;
   background: #fff;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+}
+.registroPanelcontrasena {
+    display: flex;
+    /* width: 650px; */
+    height: auto;
+    /* background: #000; */
+    /* box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%); */
 }
 
 .register, .login{
@@ -43,22 +55,55 @@ body{
   padding: 40px;
   position: relative;
 }
-
+.register2 {
+    padding: 40px;
+    /* left: 18%; */
+    bottom: 50px;
+    position: relative;
+}
 .register h2{
   color: #797979;
   margin-bottom: 30px;
+
 }
 
-.register input{
+.register input {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 1px solid #a8a8a8;
+    color: #333;
+    background: #fff;
+}
+
+
+.register2 input {
   width: 100%;
-  padding: 5px;
-  font-size: 16px;
-  margin-bottom: 25px;
-  border-top-style: none;
-  border-left-style: none;
-  border-right-style: none;
-  border-bottom: 1px solid #a8a8a8;
-  color: #333;
+padding: 5px;
+font-size: 16px;
+margin-bottom: 25px;
+border-radius: 4px 4px 4px 4px;
+/* border-top-style: none; */
+/* border-left-style: none; */
+/* border-right-style: none; */
+/* border-bottom: 1px solid #a8a8a8; */
+/* color: #333; */
+background: transparent;
+}
+
+.relojeriaImg {
+    background-image: url(../paginas/imgs/relojeria_deluxe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 553px; */
+    margin-bottom: 27px;
+        margin-bottom: 25px;
+    height: 131px;
+    padding: 0;
 }
 
 .register input:active,
@@ -108,6 +153,9 @@ body{
 }
 .buttonRegistro:hover{
   background: #1bc59b;
+}
+.registrocontra{
+  width: 100%;
 }
 .login h2{
 color: #F9AA1D;

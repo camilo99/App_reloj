@@ -5,15 +5,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title></title>
 
-	<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="../../css/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-      <link rel="stylesheet" href="../css/index.css">
+      <link rel="stylesheet" href="../../css/index.css">
 </head>
 <body>
 	<?php
-      include('headerLogin.php');
+      include('../header.php');
     ?>
+		<div class="container">
+				 <div class="registroPanelcontrasena">
+		<div class="register2">
 
+			<div class="relojeriaImg" id="logo2"></div>
+
+			<form action="">
+				<label class="label" for=""> Dirección electronica</label><br>
+				<input type="email" placeholder="correo electronico" class="email" required>
+
+
+				<button type="button" class="buttonRegistro registrocontra" name="button"><a class="button" href="Obtenercontrasena.php">Obtener nueva contraseña</a></button>
+
+			</form>
+
+		</div>
+	</div>
+	</div>
+<!--
 	<div class="row editRow">
     	<div class="container">
 
@@ -29,8 +47,7 @@
     			 		<div class="img3"></div>
     				</div>
     	</div>
-    </div>
-
+    </div> -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -39,9 +56,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="../js/fontawesome.js"></script>
+    <script src="../../js/fontawesome.js"></script>
 
-    <script src="../js/bootstrap/bootstrap.min.js"></script>
-    <script src="../js/popup.js"></script>
+    <script src="../../js/bootstrap/bootstrap.min.js"></script>
+    <script src="../../js/popup.js"></script>
+
 </body>
 </html>
