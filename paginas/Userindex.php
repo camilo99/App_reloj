@@ -6,6 +6,8 @@
 	<title></title>
 
 	<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="../css/fontawesome.min.css">
+	<link rel="stylesheet" href="../css/fontawesome.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
       <link rel="stylesheet" href="../css/index.css">
 </head>

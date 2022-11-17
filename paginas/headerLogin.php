@@ -21,6 +21,8 @@
 
                             <li class="dinone"><img style="margin-right: 15px;" src="../imgs/icono_carro.png" alt="#"></li>
 
+                            <i class="fa-sharp fa-solid fa-right-from-bracket"></i>
+
                         </ul>
                     </div>
                 </div>
