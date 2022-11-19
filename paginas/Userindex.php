@@ -20,15 +20,15 @@
     	<div class="container">
 
     		<div class="col-md-4">
-    			<div class="img1"></div>
+    			<div class="responsive img1"></div>
     		</div>
 
     			<div class="col-md-4">
-    				<div class="img2"></div>
+    				<div class="responsive img2"></div>
 
     			</div>
     				<div class="col-md-4">
-    			 		<div class="img3"></div>
+    			 		<div class="responsive img3"></div>
     				</div>
     	</div>
     </div>

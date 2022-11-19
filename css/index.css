@@ -14,6 +14,13 @@ html {
       width: 75%!important;
    margin-left: 15%!important;
 }
+.responsive{
+
+   width: 100%;
+   /* max-width: 400px; */
+   height: auto;
+ }
+
 body{
   background: -webkit-linear-gradient(top,black 80%,#f9a417 );
  background-attachment:fixed;
