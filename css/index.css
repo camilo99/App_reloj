@@ -1,11 +1,14 @@
 :root{
-  --naranja:#f9a417;
+  --naranja:#F7971E;
   --negro:#000000;
   --blanco:#ffffff;
 
 }
 
-
+html {
+       height:100%;
+       width:100%;
+   }
 
 .log{
       width: 75%!important;
@@ -21,18 +24,30 @@ body{
 .container{
   width: 100%;
   height: 70vh;
-  padding: 10px;
+  padding-right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.label {
+    color: var(--blanco);
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
 .registroPanel{
   display: flex;
   width: 650px;
   height: auto;
   background: #fff;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+}
+.registroPanelcontrasena {
+    display: flex;
+    /* width: 650px; */
+    height: auto;
+    /* background: #000; */
+    /* box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%); */
 }
 
 .register, .login{
@@ -43,22 +58,55 @@ body{
   padding: 40px;
   position: relative;
 }
-
+.register2 {
+    padding: 40px;
+    /* left: 18%; */
+    bottom: 50px;
+    position: relative;
+}
 .register h2{
   color: #797979;
   margin-bottom: 30px;
+
 }
 
-.register input{
+.register input {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 1px solid #a8a8a8;
+    color: #333;
+    background: #fff;
+}
+
+
+.register2 input {
   width: 100%;
-  padding: 5px;
-  font-size: 16px;
-  margin-bottom: 25px;
-  border-top-style: none;
-  border-left-style: none;
-  border-right-style: none;
-  border-bottom: 1px solid #a8a8a8;
-  color: #333;
+padding: 5px;
+font-size: 16px;
+margin-bottom: 25px;
+border-radius: 4px 4px 4px 4px;
+/* border-top-style: none; */
+/* border-left-style: none; */
+/* border-right-style: none; */
+/* border-bottom: 1px solid #a8a8a8; */
+/* color: #333; */
+background: transparent;
+}
+
+.relojeriaImg {
+    background-image: url(../paginas/imgs/relojeria_deluxe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 553px; */
+    margin-bottom: 27px;
+        margin-bottom: 25px;
+    height: 131px;
+    padding: 0;
 }
 
 .register input:active,
@@ -108,6 +156,9 @@ body{
 }
 .buttonRegistro:hover{
   background: #1bc59b;
+}
+.registrocontra{
+  width: 100%;
 }
 .login h2{
 color: #F9AA1D;
@@ -311,27 +362,37 @@ a{
 #sidebarCollapse {
     background: transparent;
 }
-/*Juan Jose*/ 
 
-.img1{
-    background-image: url(../paginas/imgs/img1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 1px solid red;
-    height: 553px;
+/* JUANJO */
+.editRow{
+  --bs-gutter-x: -7.5rem;
 }
+.img1 {
+  background:url('../paginas/imgs/img1.png') no-repeat center center;
+  background-size:100% 100%;
+    /* background-position: center; */
+    height: 571px;
+    display: block;
+    width: 96%;
+
+}
+
 .img2{
-    background-image: url(../paginas/imgs/img2.png);
-    background-position: center;
+  background:url('../paginas/imgs/img2.png') no-repeat center center;
+    background-size:100% 100%;
+    /* background-position: center; */
     background-repeat: no-repeat;
-    border: 1px solid red;
-    height: 553px;
+    height: 571px;
+    display: block;
+    width: 96%;
+
 }
 .img3{
-    background-image: url(../paginas/imgs/img3.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 1px solid red;
-    height: 553px;
+  background:url('../paginas/imgs/img3.png') no-repeat center center;
+  background-size:100% 100%;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  height: 571px;
+  display: block;
+  width: 96%;
 }
-

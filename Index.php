@@ -26,6 +26,23 @@
       include('header.php');
     ?>
 
+    <div class="row editRow">
+        <div class="container">
+
+          <div class="col-md-4">
+            <div class="img1"></div>
+          </div>
+
+            <div class="col-md-4">
+              <div class="img2"></div>
+
+            </div>
+              <div class="col-md-4">
+                <div class="img3"></div>
+              </div>
+        </div>
+      </div>
+
       <!-- loader  -->
       <!-- <div class="loader_bg">
           <div class="loader"><img src="imgs/loading.gif" alt="" /></div>

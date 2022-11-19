@@ -1,3 +1,9 @@
+:root{
+  --naranja:#F7971E;
+  --negro:#000000;
+  --blanco:#ffffff;
+
+}
 *{
   margin:0;
   padding: 0;
@@ -27,16 +33,32 @@ modal
   height: 100%;
   overflow: auto;
   background: rgba(0, 0, 0, 0.6); }
+
   .modalBox .modalContent {
     background: #fff;
     padding: 40px 40px 20px;
-    width: 30%;
+    width: 21%;
     position: absolute;
     top: 50%;
     left: 50%;
+    height: 375px;
+    border-radius: 4px 4px 4px 4px;
     transform: translate(-50%, -50%);
     animation-name: modalZoom;
-    animation-duration: 0.3s; }
+    animation-duration: 0.3s;
+}
+  .modalContent{
+    display: flex;
+justify-content: center;
+align-items: center;
+  }
+
+  .arrow{
+    position: absolute;
+    top: 25%;
+    left: 41%;
+    color: var(--naranja);
+  }
     @media only screen and (max-width: 1199px) {
       .modalBox .modalContent {
         width: 50%; } }
@@ -70,10 +92,24 @@ modal
     margin: 0 0 10px; }
   .modalBox .formHolder .error {
     color: #e31c25;
-<<<<<<< HEAD
-    font-size: 14px; }
-=======
-    font-size: 14px; }
+    font-size: 14px;
+  }
+  #circle {
+    background: var(--negro);
+    border-radius: 50%;
+    width: 150px;
+    position: relative;
+    height: 150px;
+    top: -46px;
+}
+    .arrow
+      {
+          position: absolute;
+          top: 22%;
+          left: 38%;
+          color: var(--naranja);
+      }
+
 
 /*
 #close{
@@ -178,4 +214,3 @@ margin-bottom: 20px;
   transform.scale(1);
   opacity: 1;
 } */
->>>>>>> 130d113b592db103dc2662ac348886b5fe9f51f9
