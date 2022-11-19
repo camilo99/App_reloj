@@ -52,10 +52,9 @@
            <input type="text" placeholder="Usuario" class="Usuario" required>
            <input type="password" placeholder="Contraseña" class="pass" required>
 
-           <button type="button" class="buttonRegistro" name="button"><a class="button" href="Userindex.php">Ingresar</a></button>
-
+           <button type="button" class="buttonRegistro" name="button"><a class="button" href="Userindex.php">Ingresar</a></button><br>
+           <label for="" class="label"><a class="button" href="registroLogin/restaurarContrasena.php">¿ Olvido la contraseña? </a></label>
          </form>
-         <label for="" class="label"><a class="button" href="registroLogin/restaurarContrasena.php">¿ Olvido la contraseña? </a></label>
        </div>
      </div>
    </div>

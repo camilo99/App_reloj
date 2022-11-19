@@ -7,8 +7,12 @@
 
 	<link href="../../css/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-      <link rel="stylesheet" href="../../css/index.css">
-      <link rel="stylesheet" href="../../css/popup.css">
+
+		<link rel="stylesheet" href="../../css/fontawesome.css">
+		<link rel="stylesheet" href="../../css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/popup.css">
 </head>
 <body>
 	<?php
@@ -36,17 +40,15 @@
 <div class="modalBox modalBox2">
   <div class="modalContent">
     <span class="close"><i class='bx bx-x'></i></span>
-    <div class="formHolder">
-        <div class="" id="circle"></div>
+    <div class="formHolder" id="formHolder">
+        <div class="" id="circle" style="background: var(--negro);border-radius: 50%;width: 150px;position: relative;height: 150px;top: -26px;left: 20%;"></div>
       <h2>Tu contraseña se ha restaurado</h2>
         <i class='bx bx-check fa-5x arrow'></i>
-
-    </div>
     <button type="button" class="buttonRegistro" name="button"><a class="button" href="../Userindex.php">Empezar</a></button>
-
-    <div class="volver">
-
     </div>
+
+
+
   </div>
 </div>
 <!--
