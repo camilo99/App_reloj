@@ -59,6 +59,10 @@ align-items: center;
     left: 41%;
     color: var(--naranja);
   }
+  #formholder{
+text-align: center!important;
+
+  }
     @media only screen and (max-width: 1199px) {
       .modalBox .modalContent {
         width: 50%; } }
