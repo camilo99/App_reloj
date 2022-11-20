@@ -403,3 +403,19 @@ a{
   display: block;
   width: 96%;
 }
+.imgLogo{
+width: 80%;
+position: relative;
+margin-left: 35px;
+margin-top: -8px;
+}
+
+#userNav{
+    display: -webkit-inline-box;
+    list-style: none;
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+}
+
+
