@@ -269,13 +269,14 @@ li .dinone{
     text-align: center;
     /* line-height: 48px; */
     position: relative;
-    top: 53px;
+    top: 5px;
     /* padding: 0 47px; */
     /* color: #fff; */
     /* margin: 0 2px; */
     border: solid #eaeaea 1px;
     border-radius: 10px;
 }
+
 .ifheader{
   width: 100%!important;
   background: -webkit-linear-gradient(top,black 80%,black );

@@ -15,7 +15,7 @@
             <div class="col-md-3">
                 <div class="full">
                     <div class="right_header_info">
-                        <button id="buttonColor"  style="top:0!important"><a class="button"  href="paginas/registro.html"> Iniciar Sesión  /   </a><a class="button" >   Registrarse</a></button>
+                        <button id="buttonColor"><a class="button"  href="paginas/registro.html"> Iniciar Sesión  /   </a><a class="button" >   Registrarse</a></button>
 <!--
 
                         <ul id="ulIcons">

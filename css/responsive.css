@@ -26,7 +26,46 @@ div{
 
 }
 */
-@media screen and (max-device-width:640px), screen and (max-width:640px) {
-.hola {
-Width: 100%;
+@media only screen and (max-width: 1040px) and (min-width: 600px) {
+  .img_logo {
+      width: 100%;
+      position: relative;
+      margin-left: 68px;
+      margin-top: 56px;
+  }
+  #buttonRegistro {
+
+    width: 188px;
+    height: 33px;
+  top:5px;
+
+}
+.buscar {
+    border: 1px solid white;
+    width: 79%;
+    height: 31px;
+    border-radius: 3px 3px 3px 3px;
+    /* align-items: center; */
+    margin-top: 66px;
+    /* text-align: center; */
+    float: right;
+}
+.container{
+      height: 84vh;
+}
+.img1,
+.img2,
+.img3{
+
+    background-size: 100% 100%;
+    /* background-position: center; */
+    position: relative;
+    background-repeat: no-repeat;
+    height: 494px;
+    display: block;
+    width: 96%;
+    bottom: 35px;
+    border-radius: 4px 4px 4px 4px;
+}
+
 }
