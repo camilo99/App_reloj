@@ -17,7 +17,7 @@
                     <div class="right_header_info">
                         <ul id="ulIcons">
                             <li class="dinone"><img style="margin-right: 15px;margin-left: 15px;" src="../imgs/icono_corazon.png" alt="#"><a href="#"></a></li>
-                            <li class="dinone"><img style="margin-right: 15px; position:relative; top:-2px;"  src="../imgs/icono_user.png" alt="#"><a href="#"></a></li>
+                            <li class="dinone"><img style="margin-right: 15px; position:relative; top:-2px;"  src="../imgs/icono_user.png" alt="#"><a href="../Userindex/headerLogin/usuario.php"></a></li>
 
                             <li class="dinone"><img style="margin-right: 15px;" src="../imgs/icono_carro.png" alt="#"></li>
 
