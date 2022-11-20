@@ -422,3 +422,12 @@ a{
     padding: 0;
     float:right;
 }
+
+.imgReloj{
+    margin-right: 13px;
+    position: relative;
+    top: 30px;
+    width: 30%;
+    left: 37%;
+
+}
