@@ -21,27 +21,27 @@
 
 </head>
 <body>
-
+    
 <header>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <div class="full">
-                    <a class="logo" href="paginas/registro.php"><img class="imgLogo" src="../../imgs/logo.png" alt="#" /></a>
+                    <a class="logo" href="paginas/registro.php"><img class="imgLogo" src="../../imgs/logo2.png" alt="#" /></a>
                 </div>
             </div>
-
-                    <div class="col-md-6">
+                        
+                    <div class="col-md-4">
                         <ul id="userNav">
-                        <li class="dinone"><img style="margin-right: 15px; position:relative; top:-2px;"  src="../../imgs/icono_user.png" alt="#"><a href="#"></a></li>
+                        <li class="dinone"><img style="margin-right: 13px; position: relative; top: -2px; width: 120%; float: right;"  src="../../imgs/icono_user.png" alt="#"><a href="#"></a></li>
 
-                        <li class="dinone"><img style="margin-right: 15px;" src="../../imgs/icono_carro.png" alt="#"></li>
+                        <li class="dinone"><img style="margin-right: 10px; width: 120%; float: right;" src="../../imgs/icono_carro.png" alt="#"></li>
 
-                        </ul>
+                        </ul>   
                     </div>
         </div>
     </div>
-
+            
         </div>
     </div>
 </header>
