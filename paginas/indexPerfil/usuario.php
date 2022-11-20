@@ -23,11 +23,11 @@
 <body>
     
 <header>
-    <div class="container-fluid">
+    <div class="container-fluid" style="padding: 12px;">
         <div class="row">
             <div class="col-md-8">
                 <div class="full">
-                    <a class="logo" href="paginas/registro.php"><img class="imgLogo" src="../../imgs/logo2.png" alt="#" /></a>
+                    <a class="logo" href="paginas/registro.php"><img class="imgLogo" src="../../imgs/logo.png" alt="#" /></a>
                 </div>
             </div>
                         
@@ -41,11 +41,20 @@
                     </div>
         </div>
     </div>
-            
-        </div>
-    </div>
 </header>
 <hr id="hr">
+
+    <div class="row">
+
+            <div class="container-fluid">
+                <ul id="userNav2">
+                    <li class="dinone"><img class="imgReloj" src="../imgs/relojeria_deluxe.png" alt="#"><a href="#"></a></li>
+                </ul>
+                
+            </div>
+        
+
+    </div>
 
 <!-- Bootstrap core JavaScript
      -->
