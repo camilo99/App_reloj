@@ -11,7 +11,9 @@
 
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-      <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css">
+      <link rel="stylesheet" href="css/responsive.css">
+
 
 
     <!-- librerías opcionales que activan el soporte de HTML5 para IE8 -->
@@ -63,4 +65,3 @@
 
   </body>
 </html>
-

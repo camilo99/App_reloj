@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="../css/fontawesome.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
       <link rel="stylesheet" href="../css/index.css">
+			<link rel="stylesheet" href="../css/responsive.css">
+
 </head>
 <body>
 	<?php

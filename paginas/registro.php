@@ -19,6 +19,8 @@
 
       <link rel="stylesheet" href="../css/index.css">
       <link rel="stylesheet" href="../css/popup.css">
+      <link rel="stylesheet" href="../css/responsive.css">
+
 
 
     <!-- librerías opcionales que activan el soporte de HTML5 para IE8 -->
