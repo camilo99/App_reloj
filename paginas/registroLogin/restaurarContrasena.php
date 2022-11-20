@@ -12,7 +12,7 @@
 </head>
 <body>
 	<?php
-      include('../header.php');
+      include('headerRestore.php');
     ?>
 		<div class="container">
 				 <div class="registroPanelcontrasena">
