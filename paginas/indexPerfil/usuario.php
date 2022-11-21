@@ -9,22 +9,21 @@
 
     <!-- Latest compiled and minified CSS -->
 
+    <link rel="stylesheet" href="../../css/index.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="../../css/fontawesome.css">
     <link rel="stylesheet" href="../../css/fontawesome.min.css">
 
-      <link rel="stylesheet" href="../../css/index.css">
-      <link rel="stylesheet" href="../../css/popup.css">
 
 
 </head>
 <body>
     
 <header>
-    <div class="container-fluid" style="padding: 12px;">
-        <div class="row">
+    <div class="container-fluid" style="margin-top:2%;">
+        <div class="row" style="margin-left:0; margin-right:0;">
             <div class="col-md-8">
                 <div class="full">
                     <a class="logo" href="paginas/registro.php"><img class="imgLogo" src="../../imgs/logo.png" alt="#" /></a>
@@ -40,11 +39,11 @@
                         </ul>   
                     </div>
         </div>
-    </div>
+    </div>  
 </header>
 <hr id="hr">
 
-    <div class="row">
+        <div class="row" style="margin-left:0; margin-right:0;">
 
             <div class="container-fluid">
                 <ul id="userNav2">
@@ -54,7 +53,24 @@
             </div>
         
 
-    </div>
+        </div>
+            <div class="textoPerfil">
+                <h2>Pedro Antonio Puentes Rondón</h2>
+            </div>
+                  
+                  <div class="container-fluid2">
+                      <div class="row">
+                          <div class="col-m-4">
+                               <ul id="userNav2">
+                                    <li class="dinone"><img style="margin-right: 13px; position: relative; top: -2px; width: 120%; float: right;"  src="../../imgs/icono_user.png" alt="#"><a href="#"></a></li>
+                                    <div class="col-m-4">
+
+                                        <li class="dinone"><img style="margin-right: 10px; width: 120%; float: right;" src="../../imgs/icono_corazon.png" alt="#"></li>
+                                    </div>  
+                                </ul> 
+                          </div>
+                      </div>
+                  </div>
 
 <!-- Bootstrap core JavaScript
      -->

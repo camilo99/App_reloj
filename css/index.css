@@ -375,6 +375,7 @@ a{
     background: transparent;
 }
 
+
 /* JUANJO */
 .editRow{
   --bs-gutter-x: -7.5rem;
@@ -408,7 +409,7 @@ a{
   width: 96%;
 }
 .imgLogo{
-    width: 40%;
+    width: 47%;
     position: relative;
     margin-left: 35px;
     margin-top: -8px;
@@ -429,6 +430,21 @@ a{
     position: relative;
     top: 30px;
     width: 30%;
-    left: 37%;
+    left: 34%;
+}
 
+.textoPerfil{
+  justify-content: center; 
+  display: flex;
+  border:20px white;
+}
+
+li{
+list-style:none;
+}
+
+.h2, h2 {
+    font-size: 31px;
+    background-color: white;
+    border-radius: 3px 3px 3px 3px;
 }
