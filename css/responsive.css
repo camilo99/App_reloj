@@ -1,10 +1,19 @@
+@media only screen and (max-width: 1599px) and (min-width: 1041px) {
+
+.img_logo {
+    width: 96%;
+    position: relative;
+    /* margin-left: 35px; */
+    margin-top: 60px;
+}
+}
 @media only screen and (max-width: 1040px) and (min-width: 902px) {
   .img_logo {
-      width: 100%;
-      position: relative;
-      margin-left: 68px;
-      margin-top: 56px;
-  }
+    /* width: 100%; */
+    position: relative;
+    /* margin-left: 68px; */
+    margin-top: 56px;
+}
   #buttonRegistro {
 
     width: 188px;
@@ -20,6 +29,29 @@
     /* align-items: center; */
     margin-top: 66px;
     /* text-align: center; */
+    float: left;
+}
+#buttonColor {
+    /* float: left; */
+    background: -webkit-linear-gradient(right, #FFEC5E,#f9a417)!important;
+    /* min-width: 75px; */
+    width: 205px;
+    height: 35px;
+    text-align: center;
+    /* line-height: 48px; */
+    position: relative;
+    top: 5px;
+    /* padding: 0 47px; */
+    margin-left: -32px;
+    /* color: #fff; */
+    /* margin: 0 2px; */
+    border: solid #eaeaea 1px;
+    border-radius: 10px;
+}
+.search {
+    position: relative;
+    left: 77%;
+    top: 74px;
     float: right;
 }
 .container{
@@ -44,9 +76,6 @@
 @media only screen and (max-width: 901px) and (min-width: 400px){
   .img_logo {
       width: 100%;
-      /* position: relative; */
-      /* margin-left: 20px; */
-      /* margin-top: 56px; */
   }
   .buscar {
     border: 1px solid white;
@@ -97,4 +126,56 @@
     bottom: 63px;
     border-radius: 4px 4px 4px 4px;
 }
+}
+@media only screen and (max-width: 1498px) and (min-width: 1200px){
+  .img_logo{
+    margin-top: 49px;
+  }
+}
+
+@media only screen and (max-width: 901px) and (min-width: 768px){
+  .img_logo {
+    width: 96%;
+    position: relative;
+    margin-left: 31px;
+    margin-top: 59px;
+}
+.buscar {
+    border: 1px solid white;
+    width: 86%;
+    height: 31px;
+    border-radius: 3px 3px 3px 3px;
+    align-items: center;
+    margin-top: 65px;
+    /* text-align: center; */
+    float: left;
+}
+.search {
+    position: relative;
+    /* left: 45%; */
+    top: 72px;
+      left: -19px;
+}
+#buttonColor {
+    /* float: left; */
+    background: -webkit-linear-gradient(right, #FFEC5E,#f9a417)!important;
+    /* min-width: 75px; */
+    width: 187px;
+    height: 33px;
+    left: -38px;
+    text-align: center;
+    /* line-height: 48px; */
+    position: relative;
+    top: 23px;
+    /* padding: 0 47px; */
+    /* color: #fff; */
+    /* margin: 0 2px; */
+    border: solid #eaeaea 1px;
+    border-radius: 10px;
+}
+.img1, .img2, .img3 {
+  width: 96%;
+  bottom: 71px;
+}
+
 }

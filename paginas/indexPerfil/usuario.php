@@ -21,7 +21,7 @@
 
 </head>
 <body>
-    
+
 <header>
     <div class="container-fluid" style="padding: 12px;">
         <div class="row">
@@ -30,14 +30,14 @@
                     <a class="logo" href="paginas/registro.php"><img class="imgLogo" src="../../imgs/logo.png" alt="#" /></a>
                 </div>
             </div>
-                        
+
                     <div class="col-md-4">
                         <ul id="userNav">
                         <li class="dinone"><img style="margin-right: 13px; position: relative; top: -2px; width: 120%; float: right;"  src="../../imgs/icono_user.png" alt="#"><a href="#"></a></li>
 
                         <li class="dinone"><img style="margin-right: 10px; width: 120%; float: right;" src="../../imgs/icono_carro.png" alt="#"></li>
 
-                        </ul>   
+                        </ul>
                     </div>
         </div>
     </div>
@@ -50,9 +50,9 @@
                 <ul id="userNav2">
                     <li class="dinone"><img class="imgReloj" src="../imgs/relojeria_deluxe.png" alt="#"><a href="#"></a></li>
                 </ul>
-                
+
             </div>
-        
+
 
     </div>
 
