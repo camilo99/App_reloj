@@ -63,6 +63,7 @@
                           <div class="col-m-4">
                                <ul id="userNav2">
                                     <li class="dinone"><img style="margin-right: 13px; position: relative; top: -2px; width: 120%; float: right;"  src="../../imgs/icono_user.png" alt="#"><a href="#"></a></li>
+                                    
                                     <div class="col-m-4">
 
                                         <li class="dinone"><img style="margin-right: 10px; width: 120%; float: right;" src="../../imgs/icono_corazon.png" alt="#"></li>
