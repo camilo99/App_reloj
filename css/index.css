@@ -428,9 +428,9 @@ a{
 .imgReloj{
     margin-right: 13px;
     position: relative;
-    top: 30px;
-    width: 30%;
-    left: 34%;
+    top: 8px;
+    width: 58%;
+    left: 22%;
 }
 
 .textoPerfil{
@@ -447,4 +447,25 @@ list-style:none;
     font-size: 31px;
     background-color: white;
     border-radius: 3px 3px 3px 3px;
+}
+#userNav2{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#iconos{
+  position: relative;
+}
+
+.corazon{
+
+}
+
+.reloj{
+
+}
+
+.servicio{
+
 }

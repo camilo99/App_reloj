@@ -58,17 +58,20 @@
                 <h2>Pedro Antonio Puentes Rondón</h2>
             </div>
                   
-                  <div class="container-fluid2">
+                  <div class="container-fluid">
                       <div class="row">
-                          <div class="col-m-4">
+                          <div class="vistas">
                                <ul id="userNav2">
-                                    <li class="dinone"><img style="margin-right: 13px; position: relative; top: -2px; width: 120%; float: right;"  src="../../imgs/icono_user.png" alt="#"><a href="#"></a></li>
                                     
-                                    <div class="col-m-4">
+                                    <li class="dinone" id="iconos"><img class="corazon" src="../../imgs/icono_corazon.png" alt="#"></li> 
 
-                                        <li class="dinone"><img style="margin-right: 10px; width: 120%; float: right;" src="../../imgs/icono_corazon.png" alt="#"></li>
-                                    </div>  
+                                    <li class="dinone" id="iconos"><img class="reloj" src="../../imgs/relojAyuda.png" alt="#"></li>
+
+                                    <li class="dinone" id="iconos"><img class="servicio" src="../../imgs/servicio.png" alt="#"><a href="#"></a></li>
+
+
                                 </ul> 
+                                    <label for="">texto</label>
                           </div>
                       </div>
                   </div>
