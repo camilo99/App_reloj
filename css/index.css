@@ -437,6 +437,11 @@ a{
   justify-content: center; 
   display: flex;
   border:20px white;
+  margin-top: 10px;
+}
+
+.vistas{
+    margin-top: 23px
 }
 
 li{
@@ -459,13 +464,29 @@ list-style:none;
 }
 
 .corazon{
-
-}
-
-.reloj{
-
+    position: relative;
+    right: 251%;
 }
 
 .servicio{
-
+    position: relative;
+    left: 251%;
 }
+
+.texto{
+    position: relative;
+    left: 35%;
+    color: var(--blanco);
+}
+
+.texto1{
+    position: relative;
+    left: 38%;
+    color: var(--blanco);
+}
+.texto2{
+    position: relative;
+    left: 41%;
+    color: var(--blanco);
+}
+

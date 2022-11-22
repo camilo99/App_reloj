@@ -26,15 +26,15 @@
         <div class="row" style="margin-left:0; margin-right:0;">
             <div class="col-md-8">
                 <div class="full">
-                    <a class="logo" href="paginas/registro.php"><img class="imgLogo" src="../../imgs/logo.png" alt="#" /></a>
+                    <a class="logo" href="../Userindex.php"><img class="imgLogo" src="../../imgs/logo.png" alt="#" /></a>
                 </div>
             </div>
                         
                     <div class="col-md-4">
                         <ul id="userNav">
-                        <li class="dinone"><img style="margin-right: 13px; position: relative; top: -2px; width: 120%; float: right;"  src="../../imgs/icono_user.png" alt="#"><a href="#"></a></li>
+                        <li class="dinone"><img style="margin-right: 13px; position: relative; top: -2px; width: 120%; float: right; right: 40%;" src="../../imgs/icono_user.png" alt="#"><a href="#"></a></li>
 
-                        <li class="dinone"><img style="margin-right: 10px; width: 120%; float: right;" src="../../imgs/icono_carro.png" alt="#"></li>
+                        <li class="dinone"><img style="margin-right: 10px; width: 120%; float: right; right: 35%;" src="../../imgs/icono_carro.png" alt="#"></li>
 
                         </ul>   
                     </div>
@@ -71,7 +71,11 @@
 
 
                                 </ul> 
-                                    <label for="">texto</label>
+                                <label class="texto">Lista de deseos</label>
+                                <label class="texto1">Historial de Busqueda</label>
+                                <label class="texto2">Centro de Ayuda</label>
+
+
                           </div>
                       </div>
                   </div>
