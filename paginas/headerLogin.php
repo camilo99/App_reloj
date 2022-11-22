@@ -9,11 +9,11 @@
             </div>
             <div class="col-md-5">
                 <div class="full">
-                  <input type="text" class="buscar log" placeholder="Buscar..."><i class='bx bx-search search'></i>
+                  <input type="text" class="buscar" id="log" placeholder="Buscar..."><i class='bx bx-search search'></i>
                 </div>
             </div>
             <div class="col-md-3">
-                
+
                     <div class="right_header_info">
                         <ul id="ulIcons">
                             <li class="dinone"><img  src="../imgs/icono_corazon.png" alt="#"><a href="#"></a></li>

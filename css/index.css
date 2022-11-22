@@ -10,9 +10,9 @@ html {
        width:100%;
    }
 
-.log{
-      width: 75%!important;
-   margin-left: 15%!important;
+#log{
+      width: 75%;
+   margin-left: 15%;
 }
 .responsive{
 
@@ -434,7 +434,7 @@ a{
 }
 
 .textoPerfil{
-  justify-content: center; 
+  justify-content: center;
   display: flex;
   border:20px white;
 }
