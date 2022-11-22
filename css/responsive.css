@@ -218,7 +218,7 @@ left: 20px;
 
 #log {
     width: 75%;
-    margin-left: 15%!important;
+        margin-left: 15%;
 }
 #ulIcons{
       bottom: 13px;
@@ -325,7 +325,7 @@ width: 100%;
  }
  #log {
      width: 75%;
-     margin-left: 11%!important;
+     margin-left: 8%!;
  }
  #ulIcons{
     bottom: 15px;
