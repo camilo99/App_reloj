@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="col-md-5">
-                <div class="full">
+                <div class="full" id="Displayflex">
                   <input type="text" class="buscar" placeholder="Buscar..."><i class='bx bx-search search'></i>
                 </div>
             </div>
