@@ -4,8 +4,9 @@
     width: 96%;
     position: relative;
     /* margin-left: 35px; */
-    margin-top: 60px;
+    margin-top: 48px;
 }
+
 }
 @media only screen and (max-width: 1498px) and (min-width: 1200px){
   .img_logo{
