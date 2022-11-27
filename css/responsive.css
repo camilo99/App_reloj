@@ -4,8 +4,9 @@
     width: 96%;
     position: relative;
     /* margin-left: 35px; */
-    margin-top: 60px;
+    margin-top: 48px;
 }
+
 }
 @media only screen and (max-width: 1498px) and (min-width: 1200px){
   .img_logo{
@@ -318,7 +319,7 @@ justify-content: center;
  }
  @media only screen and (max-width: 399px) and (min-width: 300px){
    .img1, .img2, .img3 {
-margin-top: 37%;
+    margin-top: 21%;
     height: 339px;
 display: block;
 width: 100%;

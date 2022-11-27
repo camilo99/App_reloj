@@ -17,11 +17,16 @@
 	<?php
       include('headerRestore.php');
     ?>
+
 		<div class="container">
 		     <div class="registroPanelcontrasena">
 		<div class="register2">
 
-			<div class="relojeriaImg" id="logo2"></div>
+
+					<img class="imgReloj" src="../imgs/relojeria_deluxe.png" alt="#"><a href="#"></a>
+
+
+
 
 			<form action="">
 				<label class="label" for=""> Nueva contraseña</label><br>

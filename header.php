@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="full">
-                    <a class="logo" href="paginas/registro.php"><img class="img_logo" src="imgs/logo.png" alt="#" /></a>
+                    <a class="logo"><img class="img_logo" src="imgs/logo.png" alt="#" /></a>
                 </div>
             </div>
             <div class="col-md-5">
@@ -15,7 +15,7 @@
             <div class="col-md-3">
                 <div class="full">
                     <div class="right_header_info">
-                        <button  id="buttonColor" ><a class="button"  href="paginas/registro.php"> Iniciar Sesión  /   </a><a class="button" >   Registrarse</a></button>
+                        <button  id="buttonColor" ><a class="button"  href="paginas/registro.php"> Iniciar Sesión  /   </a><a href="paginas/registro.php" class="button" >   Registrarse</a></button>
 
 
                         <!-- <ul id="ulIcons">

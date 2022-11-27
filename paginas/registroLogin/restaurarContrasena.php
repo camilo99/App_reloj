@@ -14,24 +14,28 @@
 	<?php
       include('headerRestore.php');
     ?>
-		<div class="container">
-				 <div class="registroPanelcontrasena">
-		<div class="register2">
-
-			<div class="relojeriaImg" id="logo2"></div>
-
-			<form action="">
-				<label class="label" for=""> Dirección electronica</label><br>
-				<input type="email" placeholder="correo electronico" class="email" required>
+	<div class="container">
+			 <div class="registroPanelcontrasena">
+	<div class="register2">
 
 
-				<button type="button" class="buttonRegistro registrocontra" name="button"><a class="button" href="Obtenercontrasena.php">Obtener nueva contraseña</a></button>
+				<img class="imgReloj" src="../imgs/relojeria_deluxe.png" alt="#"><a href="#"></a>
 
-			</form>
 
-		</div>
+
+
+		<form action="">
+			<label class="label" for=""> Dirección electronica</label><br>
+			<input type="email" placeholder="email" class="email" required>
+
+
+			<button type="button" class="buttonRegistro registrocontra" name="button"><a href="Obtenercontrasena.php" class="button" >Obtener nueva contraseña</a></button>
+
+		</form>
+
 	</div>
-	</div>
+</div>
+</div>
 <!--
 	<div class="row editRow">
     	<div class="container">
