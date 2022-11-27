@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+.imgH1{
+	background: url(imgs/imgsHombres/img1.png) no-repeat;
+    width: 41%;
+    padding: 0;
+    position: relative;
+    left: 10%;
+}
+.imgH2{
+	background: url(imgs/imgsHombres/img2.png) no-repeat;
+       width: 40%;
+    height: 213px;
+    position: relative;
+    left: -6%;
+}
+.imgH3{
+	background: url(imgs/imgsHombres/img3.png) no-repeat;
+    width: 41%;
+    height: 213px;
+    position: relative;
+    right: 21%;
+}
+.imgH4{
+	background: url(imgs/imgsHombres/img4.png) no-repeat;
+    width: 41%;
+    height: 213px;
+    position: relative;
+    right: 21%;
+}

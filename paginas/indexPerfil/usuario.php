@@ -56,6 +56,7 @@
         </div>
             <div class="textoPerfil">
                 <h2>Pedro Antonio Puentes Rondón</h2>
+                
             </div>
                   
                   <div class="container-fluid">

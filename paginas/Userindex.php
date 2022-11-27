@@ -22,7 +22,7 @@
     	<div class="container">
 
     		<div class="col-md-4">
-    			<div class="responsive img1"></div>
+    			<a href="catalogo/catalogoHombre.php"><div class="responsive img1"></div></a>
     		</div>
 
     			<div class="col-md-4">
