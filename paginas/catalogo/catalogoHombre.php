@@ -23,7 +23,7 @@
           include('catalogoHeader.php');
       ?>
 
-<div class="row editRow">
+<div class="row editRow"style="margin-left: 0; margin-right:0">
 		<div class="div" style="display: flex;">
 
 			<div class="imgH1"></div>
@@ -31,6 +31,15 @@
 			<div class="imgH3"></div>
 			<div class="imgH4"></div>
 			<div class="imgH5"></div>
+	
+		</div><br>
+		<div class="div" style="display: flex;">
+
+			<div class="imgH6"></div>
+			<div class="imgH7"></div>
+			<div class="imgH8"></div>
+			<div class="imgH9"></div>
+			<div class="imgH10"></div>
 	
 		</div>
 </div>
