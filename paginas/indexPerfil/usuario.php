@@ -56,7 +56,7 @@
         </div>
             <div class="textoPerfil">
                 <h2>Pedro Antonio Puentes Rondón</h2>
-                
+
             </div>
 
                   <div class="container-fluid">
@@ -64,7 +64,7 @@
                           <div class="vistas">
                                <ul id="userNav2">
 
-                                    <li class="dinone" id="iconos"><img class="corazon" src="../../imgs/icono_corazon.png" alt="#"></li>
+                                    <a href="ListaDeseos.php"><li class="dinone" id="iconos"><img class="corazon" src="../../imgs/icono_corazon.png" alt="#"></li></a>
 
                                     <a href="historial.php"><li class="dinone" id="iconos"><img class="reloj" src="../../imgs/relojAyuda.png" alt="#"></li></a>
 

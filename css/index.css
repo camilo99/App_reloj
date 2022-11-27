@@ -44,14 +44,46 @@ border-radius: 6px 6px 6px 6px;
 left: 26%;
 position: relative;
 }
+.hrRegistro{
+  width: 80%;
+    position: relative;
+    left: 68px;
+    background: grey;
+    height: 1px;
+    top: 10px;
+}
+.imghistory1{
+  margin-left: 13%;
+    padding-top: 54px;
+}
+.imghistory2{
+  margin-left: 13%;
+  padding-top: 20px;
+
+}
+.valorPrecio{
+font-size: 19px;
+}
+.labelTitle{
+  font-family: 'Bellefair';
+    font-size: 26px;
+}
+.imagenHis1{
+  float: right;
+    width: 11%;
+    position: relative;
+    /* margin-left: -23%; */
+    right: 51px;
+    border-radius: 5px 5px 5px 5px;
+    top: -79px;
+}
 .container3{
   width: 100%;
   padding-right: 0px;
   display: block;
 }
 #historialNav{
-
-      margin-left: 8%;
+    margin-left: 23%;
 }
 .liHistorial {
     color: #fff;
