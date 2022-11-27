@@ -91,7 +91,7 @@ font-size: 19px;
     font-size: 30px;
 }
 .label {
-    color: var(--blanco);
+    color: #fff;
     margin: 0;
     padding: 0;
     margin-bottom: 15px;
