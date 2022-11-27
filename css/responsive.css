@@ -319,7 +319,7 @@ justify-content: center;
  }
  @media only screen and (max-width: 399px) and (min-width: 300px){
    .img1, .img2, .img3 {
-margin-top: 37%;
+    margin-top: 21%;
     height: 339px;
 display: block;
 width: 100%;
