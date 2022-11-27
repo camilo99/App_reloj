@@ -26,11 +26,11 @@
     		</div>
 
     			<div class="col-md-4">
-    				<div class="responsive img2"></div>
+    				<a href="catalogo/catalogoUnisex.php"><div class="responsive img2"></div></a>
 
     			</div>
     				<div class="col-md-4">
-    			 		<div class="responsive img3"></div>
+    			 		<a href="catalogo/catalogoMujeres.php"><div class="responsive img3"></div></a>
     				</div>
     	</div>
     </div>

@@ -9,6 +9,8 @@ body{
 	padding-bottom: 0%;
 }
 
+/*imgHombres*/
+
 .imgH1{
 	background: url(imgs/imgsHombres/img1.png) no-repeat;
     width: 14%;
@@ -78,4 +80,159 @@ body{
     height: 213px;
     position: relative;
     left: 20%;
+}
+/*imgMujeres*/
+
+.imgM1{
+    background: url(imgs/imgsMujeres/img1.png) no-repeat;
+    width: 14%;
+    padding: 0;
+    position: relative;
+    left: 12%;
+}
+.imgM2{
+    background: url(imgs/imgsMujeres/img2.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 14%;
+}
+.imgM3{
+    background: url(imgs/imgsMujeres/img3.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 16%;
+}
+.imgM4{
+    background: url(imgs/imgsMujeres/img4.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 18%;
+}
+.imgM5{
+    background: url(imgs/imgsMujeres/img5.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 20%;
+}
+.imgM6{
+    background: url(imgs/imgsMujeres/img6.png) no-repeat;
+    width: 14%;
+    padding: 0;
+    position: relative;
+    left: 12%;
+}
+.imgM7{
+    background: url(imgs/imgsMujeres/img7.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 14%;
+}
+.imgM8{
+    background: url(imgs/imgsMujeres/img8.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 16%;
+}
+.imgM9{
+    background: url(imgs/imgsMujeres/img9.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 18%;
+}
+.imgM10{
+    background: url(imgs/imgsMujeres/img10.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 20%;
+}
+
+/*imgUnisex*/
+
+.imgU1{
+    background: url(imgs/imgsUnisex/img1.png) no-repeat;
+    width: 14%;
+    padding: 0;
+    position: relative;
+    left: 12%;
+    height: 227px;
+}
+.imgU2{
+    background: url(imgs/imgsUnisex/img2.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 14%;
+    height: 227px;
+}
+.imgU3{
+    background: url(imgs/imgsUnisex/img3.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 16%;
+    height: 227px;
+}
+.imgU4{
+    background: url(imgs/imgsUnisex/img4.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 18%;
+   height: 227px;
+}
+.imgU5{
+    background: url(imgs/imgsUnisex/img5.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 20%;
+    height: 227px;
+}
+.imgU6{
+    background: url(imgs/imgsUnisex/img6.png) no-repeat;
+    width: 14%;
+    padding: 0;
+    position: relative;
+    left: 12%;
+    height: 227px;
+}
+.imgU7{
+    background: url(imgs/imgsUnisex/img7.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 14%;
+    height: 227px;
+}
+.imgU8{
+    background: url(imgs/imgsUnisex/img8.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 16%;
+    height: 227px;
+}
+.imgU9{
+    background: url(imgs/imgsUnisex/img9.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 18%;
+    height: 227px;
+}
+.imgU10{
+    background: url(imgs/imgsUnisex/img10.png) no-repeat;
+    width: 14%;
+    height: 213px;
+    position: relative;
+    left: 20%;
+    height: 227px;
 }
