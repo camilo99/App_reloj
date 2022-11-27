@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historial Busqueda</title>
+    <title>Lista de deseos</title>
 
         <!-- CSS de Bootstrap -->
 
@@ -44,7 +44,7 @@
 
 <div class="container3">
 <ul id="historialNav">
-                <a href="historial.php"><li class="liHistorial" id="iconos"><img  style="margin-right: 10px;" class="reloj" src="../../imgs/relojAyuda.png" alt="#">Historial de Busqueda</li></a>
+                <a href="historial.php"><li class="liHistorial" id="iconos"><img  style="margin-right: 10px;" class="reloj" src="../../imgs/icono_corazon.png" alt="#">Lista de Deseos</li></a>
 </ul>
 </div>
 
