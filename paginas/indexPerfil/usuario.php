@@ -10,6 +10,7 @@
     <!-- Latest compiled and minified CSS -->
 
     <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/popup.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -26,13 +27,13 @@
         <div class="row" style="margin-left:0; margin-right:0;">
             <div class="col-md-8">
                 <div class="full">
-                    <a class="logo" href="../Userindex.php"><img class="imgLogo" src="../../imgs/logo.png" alt="#" /></a>
+                    <a class="logo" href="../Userindex.php"><img  class="imgLogo" src="../../imgs/logo.png" alt="#" /></a>
                 </div>
             </div>
 
                     <div class="col-md-4">
                         <ul id="userNav">
-                        <li class="dinone"><img style="margin-right: 13px; position: relative; top: -2px; width: 120%; float: right; right: 40%;" src="../../imgs/icono_user.png" alt="#"><a href="#"></a></li>
+                        <li class="dinone"><img id="Clic" style="margin-right: 13px; position: relative; top: -2px; width: 120%; float: right; right: 40%;" src="../../imgs/icono_user.png" alt="#"><a href="#"></a></li>
 
                         <li class="dinone"><img style="margin-right: 10px; width: 120%; float: right; right: 35%;" src="../../imgs/icono_carro.png" alt="#"></li>
 
@@ -80,6 +81,61 @@
                           </div>
                       </div>
                   </div>
+
+                  <!-- Modal Box for Login -->
+                  <div class="modalBox modalBox3">
+                    <div class="modalContent">
+                      <span class="close"><i class='bx bx-x'></i></span>
+                      <div id="formholder" class="formHolder" style="text-align: center;">
+                        <form>
+                          <div class="">
+                            <h2> Datos Personales</h2>
+                          </div>
+                          <div class="form-group row">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre</label>
+                            <div class="col-sm-10">
+                              <input type="email" class="form-control is-valid" id="inputEmail3" placeholder="Juan aristizaba">
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                              <input type="email" class="form-control is-valid" id="inputEmail3" placeholder="juanorozco@hotmail.com">
+                            </div>
+                          </div>
+<div class="form-group row">
+  <label for="inputEmail3" class="col-sm-2 col-form-label">Celular</label>
+  <div class="col-sm-10">
+    <input type="email" class="form-control is-valid" id="inputEmail3" placeholder="3102545856">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="inputPassword3" class="col-sm-2 col-form-label">Fecha Entrega</label>
+  <div class="col-sm-10">
+    <input type="password" class="form-control is-invalid" id="inputPassword3" placeholder="Password">
+  </div>
+</div>
+
+<div class="form-group row">
+  <div class="col-sm-10">
+    <a href="usuario.php"><button style="left: 23px; position:relative;" type="submit" class="btn btn-primary">Actualizar</button></a>
+  </div>
+</div>
+</form>
+
+
+                      <!-- <button type="button" class="buttonRegistro" name="button"><a class="button" href="../Userindex.php">Empezar</a></button> -->
+
+                      </div>
+
+                      <div class="volver">
+
+                      </div>
+                    </div>
+                  </div>
+
+
+                   <!-- end form -->
 
 <!-- Bootstrap core JavaScript
      -->
