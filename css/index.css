@@ -562,3 +562,6 @@ list-style:none;
     left: 41%;
     color: var(--blanco);
 }
+.division1{
+  border:50px white; 
+}

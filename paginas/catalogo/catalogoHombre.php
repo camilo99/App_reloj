@@ -27,7 +27,7 @@
 		<div class="div" style="display: flex;">
 
 			<div class="imgH1"></div>
-			<div class="imgH2"></div>
+			<a href=""><div class="imgH2"></div></a>
 			<div class="imgH3"></div>
 			<div class="imgH4"></div>
 			<div class="imgH5"></div>
@@ -45,3 +45,5 @@
 </div>
 </body>
 </html>
+
+
