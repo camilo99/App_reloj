@@ -80,16 +80,21 @@ text-align: center!important;
     transition: color 0.3s linear; }
     .modalBox .close:hover, .modalBox .close:focus {
       color: #e31c25; }
-  .modalBox .formHolder h2 {
-    font-size: 24px; }
+      .modalBox .formHolder h2 {
+        font-size: 24px;
+        font-family: 'Bellefair'!important;
+    }
     @media only screen and (max-width: 767px) {
       .modalBox .formHolder h2 {
         font-size: 20px; } }
   .modalBox .formHolder .row {
     margin: 0 0 20px; }
-  .modalBox .formHolder label {
-    display: block;
-    margin: 0 0 10px; }
+    .modalBox .formHolder label {
+        display: block;
+        position: relative;
+        margin: 0 0 10px;
+        right: 21px;
+    }
   .modalBox .formHolder input[type="text"],
   .modalBox .formHolder input[type="password"] {
     width: 100%;

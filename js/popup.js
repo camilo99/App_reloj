@@ -21,3 +21,13 @@ $('#recuperarcontraseña').click(function() {
 $('.close').click(function() {
   modal2.hide();
 });
+
+var modal3 = $('.modalBox3');
+
+$('#Clic').click(function() {
+  modal3.show();
+});
+
+$('.close').click(function() {
+  modal3.hide();
+});

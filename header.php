@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="full">
-                    <a class="logo"><img class="img_logo" src="imgs/logo.png" alt="#" /></a>
+                    <a class="logo" href="Index.php"><img class="img_logo" src="imgs/logo.png" alt="#" /></a>
                 </div>
             </div>
             <div class="col-md-5">

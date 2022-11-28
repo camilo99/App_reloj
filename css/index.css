@@ -68,6 +68,7 @@ font-size: 19px;
   font-family: 'Bellefair';
     font-size: 26px;
 }
+
 .imagenHis1{
   float: right;
     width: 11%;
@@ -361,7 +362,7 @@ header {
 .headerL {
     /* padding: 21px 0; */
     padding-bottom: 0%;
-    
+
 }
 header .container-fluid {
     max-width: 1850px;

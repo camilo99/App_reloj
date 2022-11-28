@@ -16,12 +16,12 @@
 
                     <div class="right_header_info">
                         <ul id="ulIcons">
-                            <li class="dinone"><img  src="../imgs/icono_corazon.png" alt="#"><a href="#"></a></li>
+                            <li class="dinone"><a href="indexPerfil/ListaDeseos.php"><img  src="../imgs/icono_corazon.png" alt="#"></a></li>
                             <li class="dinone"><a href="indexPerfil/usuario.php"><img src="../imgs/icono_user.png" alt="#"></a></li>
 
                             <li class="dinone"><img src="../imgs/icono_carro.png" alt="#"></li>
 
-                            
+
 
                         </ul>
                     </div>

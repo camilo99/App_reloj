@@ -49,7 +49,7 @@
        </div>
        <hr>
        <div class="register">
-         <h2>Iniciar Sesión</h2>
+ <h2>Iniciar Sesión</h2>
          <form action="">
            <input type="text" placeholder="Usuario" class="Usuario" required>
            <input type="password" placeholder="Contraseña" class="pass" required>
